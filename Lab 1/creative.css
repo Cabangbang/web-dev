@@ -1,0 +1,84 @@
+#container {
+  font-family: arial;
+  color: whitesmoke;
+  margin: 0 auto;
+}
+
+.image-container {
+  float: left;
+  width: 700px;
+  padding: 5px;
+}
+.images::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#About {
+  width: 700px;
+  margin: 0 auto;
+}
+
+#Name {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-right: 80px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+#Logo {
+  padding-right: 500px;
+  width: 300px;
+  float: right;
+}
+
+#Profile_Picture {
+  border-radius: 3000px;
+  width: 350px;
+  float: right;
+}
+
+body {
+  background: black;
+  padding-bottom: 300px;
+}
+
+table {
+  border: 1px dashed black;
+}
+
+td {
+  padding: 2px;
+  border: 1px solid #e88741;
+}
+#Contacts {
+  float: right;
+  padding-right: 300px;
+}
+
+#PastEducation {
+  float: right;
+  padding-right: 403px;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: paleturquoise;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+h2 {
+  color: aqua;
+}

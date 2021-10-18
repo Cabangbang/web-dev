@@ -1,0 +1,110 @@
+#container {
+  font-family: arial;
+  color: black;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.image-container {
+  float: left;
+  width: 700px;
+  padding: 5px;
+}
+.images::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#Name {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-right: 80px;
+}
+
+#Logo {
+  width: 300px;
+  float: left;
+}
+
+#Profile_Picture {
+  border-radius: 20px;
+  width: 350px;
+  float: right;
+}
+
+body {
+  background: #feffff;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+table {
+  border: 1px dashed black;
+}
+
+td {
+  padding: 2px;
+  border: 1px solid #e88741;
+}
+
+#sidebar_left {
+  background-color: #def2f1;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 13%;
+  height: 100%;
+}
+
+#sidebar_right {
+  background-color: #def2f1;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 13%;
+  height: 100%;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#answer1,
+#answer2,
+#answer3 {
+  display: none;
+  width: 500px;
+}
+
+#answer {
+  background-color: rgb(55, 131, 202);
+  color: rgb(255, 255, 255);
+}
+
+#button1,
+#button2,
+#button3,
+#swapButton {
+  background-color: #008cba;
+  color: white;
+}
+
+#Riven {
+  width: 500px;
+}

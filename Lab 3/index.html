@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link id="Style" rel="stylesheet" href="professional.css">
+	<meta charset="UTF-8">
+	<title>Lab 2</title>
+</head>
+	
+<body>
+	
+<div id="container">
+	<div class="images">
+		<div class="image_container">
+			<a href="https://www.tudublin.ie/" target="_blank"><img id="Logo" src="TUDublin_RGB.jpg" alt="College Logo"></a>
+		</div>
+		<div class="image_container">
+			<img id="Profile_Picture" src="Profile.jpg" alt="Profile Picture">
+		</div>
+	</div>
+	
+	<div id="Name">
+		<header>
+			<h1>Raphael Bien Cabangbang</h1>
+		</header>
+	</div>
+	<hr>
+		
+	<div id="About">
+		<h2>About</h2>
+			<p>Hello I'm Raphael Bien Cabangbang. I am a 3rd year student at TU Dublin.<br>
+			I know the basics of HTML, Java, Python, C and SQL Databases. <br>
+			I am a team worker that will always be ready to help others.
+			</p>
+			
+	</div>
+
+	<div id="Contacts">
+		<h2>Contacts</h2>
+		<ul>
+			<li>Email: 	C19464094@mytudublin.ie</li>
+			<li>Phone no.: 0874336363</li>
+			<li>LinkedIn:
+				<a href="https://www.linkedin.com/in/raphaelcabangbang/" target="_blank">https://www.linkedin.com/in/raphaelcabangbang/</a></li>
+			<li>GitHub: 
+					<a href="https://github.com/Cabangbang" target="_blank">https://github.com/Cabangbang</a></li>
+		</li>
+	</div>	
+	
+	<div id="Table">
+		<h2>Skills</h2>
+		        <table>
+                <tr id="heading">
+                    <td>Education</td>
+                    <td>Year</td>
+                    <td>Percentage / Grades</td>
+    
+                </tr>
+                <tr>
+                    <td>Clonkeen College</td>
+                    <td>2013 - 2019</td>
+                    <td>75.57%</td>
+                </tr>
+                <tr>
+                    <td>TU Dublin</td>
+                    <td>2019-2020</td>
+                    <td>72.40%</td>
+                </tr>
+                <tr>
+                    <td>TU Dublin</td>
+                    <td>2020-2021</td>
+                    <td>N/A</td>
+                </tr>
+            </table>
+	</div>
+	
+	<div id="PastEducation">
+		<h2>Past Education & Employment </h2>
+			<li><a href="https://www.clonkeencollege.ie/" target="_blank">Clonkeen College</a></li>
+			    <ul>
+					<li>Graduated 2019</li>
+					<li>Library committe </li>
+					<li>Graphic design class</li>
+				</ul>
+			<li><a href="https://www.mcdonalds.com/ie/en-ie.html" target="_blank">McDonalds</a></li>
+				<ul>
+					<li>Cashier</li>
+					<li>Cook</li>
+				</ul>
+			<li><a href="https://www.tesco.ie/" target="_blank">Tesco</a></li>
+				<ul>
+					<li>Cashier</li>
+					<li>Team player</li>
+				</ul>
+	</div>	
+
+	<div id="Languages">
+		<h2>Languages</h2>
+		<ul>
+			<li>Python</li>
+			<li>Java</li>
+			<li>C</li>
+			<li>SQL</li>
+			<li>HTML</li>
+		</ul>
+	</div>
+
+	<div id="questions"> 
+		<h2>Three questions</h2>
+
+		<p id="question">How old am I?</p>
+			<input onclick="showAndHide1()" type="button" value="Show" id="button1"></input>
+		<div id="answer1">
+			<p id="answer">21</p>
+		</div>
+
+		<p>Who do I main in League of Legends?</p>
+			<input onclick="showAndHide2()" type="button" value="Show" id="button2"></input>
+		<div id="answer2">
+			<p id="answer">Riven</p>
+			<img id="Riven" src="Riven.jpg" alt="Riven">
+		</div>
+
+		<p>Where am I from?</p>
+			<input onclick="showAndHide3()" type="button" value="Show" id="button3"></input>
+		<div id="answer3">
+			<p id="answer">Manila, Philippines</p>
+		</div>
+	</div>
+
+	<div id="SwapSheet">
+		<h2>Swap Style</h2>
+			<input onclick="swapStyleCreative()" type="button" value="Swap" id="swapButton"></input>
+	</div>
+
+	<div id="sidebar_left"></div>
+	<div id="sidebar_right"></div>	
+	
+	<script src="button.js"></script>
+</div>
+</body>
