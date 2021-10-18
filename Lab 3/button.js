@@ -21,12 +21,6 @@ function showAndHide3() {
   showAndHide("answer3", "button3");
 }
 
-function create(){
-var btn = document.createElement("BUTTON");   // Create a <button> element
-btn.innerHTML = "CLICK ME";                   // Insert text
-document.body.appendChild(btn);   
-}
-
 function swapStyleSheet(sheet) {
   if (sheet == "creative.css") {
     document.getElementById("Style").setAttribute("href", "creative.css");
