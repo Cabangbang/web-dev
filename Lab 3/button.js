@@ -43,6 +43,7 @@ function swapStyleCreative() {
   swapStyleSheet("creative.css");
 }
 
+//function to remove the answer
 function removediv() {
   var oldDiv = document.getElementById("answer");
   var blank = document.createElement("p");
@@ -53,6 +54,7 @@ function removediv() {
   oldDiv.replaceWith(blank);
 }
 
+//function to display the answers
 function replaceDiv(button) {
   if (button == "button1") {
     var text = document.createTextNode("21");
