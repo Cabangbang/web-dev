@@ -1,3 +1,4 @@
+//function that shows and hides the answers
 function showAndHide(answer, button) {
   let ans = document.getElementById(answer);
   var button = document.getElementById(button);
@@ -11,16 +12,7 @@ function showAndHide(answer, button) {
   }
 }
 
-function showAndHide1() {
-  showAndHide("answer1", "button1");
-}
-function showAndHide2() {
-  showAndHide("answer2", "button2");
-}
-function showAndHide3() {
-  showAndHide("answer3", "button3");
-}
-
+//Function to swap style sheet
 function swapStyleSheet(sheet) {
   if (sheet == "creative.css") {
     document.getElementById("Style").setAttribute("href", "creative.css");
@@ -42,6 +34,7 @@ function swapStyleSheet(sheet) {
   }
 }
 
+//functions that call to the swap style sheet function
 function swapStyleProfessional() {
   swapStyleSheet("professional.css");
 }

@@ -85,12 +85,12 @@ a:hover {
   text-decoration: underline;
 }
 
-#answer1,
+/* #answer1,
 #answer2,
 #answer3 {
   display: none;
   width: 500px;
-}
+} */
 
 #answer {
   background-color: rgb(55, 131, 202);
@@ -100,6 +100,7 @@ a:hover {
 #button1,
 #button2,
 #button3,
+#button4,
 #swapButton {
   background-color: #008cba;
   color: white;

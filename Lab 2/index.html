@@ -24,6 +24,11 @@
 		</header>
 	</div>
 	<hr>
+
+	<div id="SwapSheet">
+		<h2>Swap Style</h2>
+			<input onclick="swapStyleCreative()" type="button" value="Swap" id="swapButton"></input>
+	</div>
 		
 	<div id="About">
 		<h2>About</h2>
@@ -108,29 +113,26 @@
 		<h2>Three questions</h2>
 
 		<p>How old am I?</p>
-			<input onclick="showAndHide1()" type="button" value="Show" id="button1"></input>
+			<input onclick="showAndHide('answer1', 'button1')" type="button" value="Show" id="button1"></input>
 		<div id="answer1">
 			<p id="answer">21</p>
 		</div>
 
 		<p>Where do I live?</p>
-			<input onclick="showAndHide2()" type="button" value="Show" id="button2"></input>
+			<input onclick="showAndHide('answer2', 'button2')" type="button" value="Show" id="button2"></input>
 		<div id="answer2">
 			<p id="answer">Blackrock</p>
 		</div>
 
 		<p>Where am I from?</p>
-			<input onclick="showAndHide3()" type="button" value="Show" id="button3"></input>
+			<input onclick="showAndHide('answer3', 'button3')" type="button" value="Show" id="button3"></input>
 		<div id="answer3">
 			<p id="answer">Manila, Philippines</p>
 		</div>
 
 	</div>
 
-	<div id="SwapSheet">
-		<h2>Swap Style</h2>
-			<input onclick="swapStyleCreative()" type="button" value="Swap" id="swapButton"></input>
-	</div>
+
 
 	<div id="sidebar_left"></div>
 	<div id="sidebar_right"></div>	
