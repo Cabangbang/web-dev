@@ -1,8 +1,15 @@
 document.title = "Lab 4";
 
-// Text Section
+// Name
 $("#Name").append("<h1>Raphael Bien Cabanbang</h1>");
 
+// Swap style sheet
+$("#SwapButton").append("<h2>Swap Style Sheet</h2>");
+$("#SwapButton").append(
+  '<input onclick="swapStyleCreative()" type="button" value="Change style" id=swapButton></input>'
+);
+
+// About
 $("#About").append("<h2>About</h2>");
 $("#About").append("<p id='About-p'></p>");
 $("About-p").attr("id", "p");
@@ -12,7 +19,7 @@ $("#About-p").text(
     "I am a team worker that will always be ready to help others."
 );
 
-// List 1 Section
+// List 1
 $("#list").append("<h2>Past Education & Employment</h2>");
 $("#list").append('<ul id="ul1"></ul>');
 $("#ul1").append(
@@ -46,7 +53,7 @@ $("#ul5").append("<li>C</li>");
 $("#ul5").append("<li>HTML</li>");
 $("#ul5").append("<li>SQL</li>");
 
-// Table Section
+// Table
 $("#table").append('<table id="table1"></table>');
 $("#table1").append('<tr id="1stRow"></>');
 $("#1stRow").append("<th>Education</th>");
@@ -68,7 +75,7 @@ $("#4thRow").append("<td>TU Dublin</td>");
 $("#4thRow").append("<td>2020-2021</td>");
 $("#4thRow").append("<td>N/A</td>");
 
-// Bottoms Section
+// Questions
 $("#buttons").append("<h2>Questions</h2>");
 
 $("#parent1").append('<p id="Question">How old am I?</p>');
@@ -88,7 +95,3 @@ $("#parent3").append(
   '<input onclick="button3()" type="button" value="Show" id="button3"></input>'
 );
 $("#parent3").append('<div id="myDiv3"></div>');
-
-$("#buttons").append(
-  '<input onclick="swapStyleCreative()" type="button" value="Change style" id=swapButton></input>'
-);
